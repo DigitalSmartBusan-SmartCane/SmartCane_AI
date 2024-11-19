@@ -1,0 +1,12 @@
+{
+    "input": {
+        "temperature": 25.3,
+        "current": 1.2,
+        "voltage": 3.7
+    },
+    "result": [
+        [
+            11.421016693115234
+        ]
+    ]
+}

@@ -1,0 +1,30 @@
+라즈베리 파이를 이용하여 딥러닝 모델 수행
+
+라즈베리 파이 전용 카메라 모듈 사용하여 실시간 객체 인식 수행
+
+초음파 센서 (거리 측정을 통해 객체가 가까울 때 추가 경고)
+
+장애물 종류에 따라 진동이나 소리로 피드백
+
+
+YOLOv4 Tiny나 MobileNet SSD와 같은 경량 모델
+객체 인식 성능을 위해 TensorFlow Lite 나 OpenCV DNN 모듈 이용
+
+모델 훈련 => 사전에 학습된 모델 사용 또는 보도블럭,가로수,장애물등의 데이터로 학습
+
+
+라즈베리 파이 &카메라 (YOLOv8 모델)
+https://docs.ultralytics.com/ko/guides/raspberry-pi/#reproduce-our-results
+
+
+데이터 
+
+1. ai허브_장애물에 가려진 물체 형상 추정 데이터
+https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=471
+
+
+2. ai허브_인도보행 영상
+https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=189
+
+3. ai허브_저조도 환경 데이터
+https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71377
